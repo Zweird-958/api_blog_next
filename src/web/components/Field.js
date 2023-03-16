@@ -1,8 +1,8 @@
-import clsx from "clsx";
-import { ErrorMessage, Field as FieldFormik } from "formik";
+import clsx from "clsx"
+import { ErrorMessage, Field as FieldFormik } from "formik"
 
 const Field = (props) => {
-  const { name, placeholder, className } = props;
+  const { name, placeholder, className } = props
 
   return (
     <div className="flex w-3/4 flex-col gap-1">
@@ -20,7 +20,7 @@ const Field = (props) => {
         className="text-sm text-red-500"
       />
     </div>
-  );
-};
+  )
+}
 
-export default Field;
+export default Field

@@ -1,7 +1,7 @@
-import { Formik, Form as FormFormik } from "formik";
+import { Formik, Form as FormFormik } from "formik"
 
 const Form = (props) => {
-  const { children, ...otherProps } = props;
+  const { children, ...otherProps } = props
 
   return (
     <Formik {...otherProps}>
@@ -12,7 +12,7 @@ const Form = (props) => {
         {children}
       </FormFormik>
     </Formik>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form

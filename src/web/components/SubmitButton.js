@@ -1,7 +1,7 @@
-import clsx from "clsx";
+import clsx from "clsx"
 
 const SubmitButton = (props) => {
-  const { children, className, ...otherProps } = props;
+  const { children, className, ...otherProps } = props
 
   return (
     <button
@@ -14,7 +14,7 @@ const SubmitButton = (props) => {
     >
       {children}
     </button>
-  );
-};
+  )
+}
 
-export default SubmitButton;
+export default SubmitButton

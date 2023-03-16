@@ -1,7 +1,7 @@
-import clsx from "clsx";
+import clsx from "clsx"
 
 const TitleForm = (props) => {
-  const { children, className, ...otherProps } = props;
+  const { children, className, ...otherProps } = props
 
   return (
     <p
@@ -10,7 +10,7 @@ const TitleForm = (props) => {
     >
       {children}
     </p>
-  );
-};
+  )
+}
 
-export default TitleForm;
+export default TitleForm

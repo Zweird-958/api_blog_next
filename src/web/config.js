@@ -5,6 +5,6 @@ const config = {
   session: {
     localStorageKey: "session_jwt",
   },
-};
+}
 
-export default config;
+export default config
