@@ -1,3 +1,4 @@
+import UserModel from "@/api/db/models/UserModel"
 import mw from "@/api/mw"
 import hashPassword from "@/api/utils/hashPassword"
 
