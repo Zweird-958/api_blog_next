@@ -21,6 +21,6 @@ const config = {
       digest: "sha512",
     },
   },
-};
+}
 
-export default config;
+export default config
